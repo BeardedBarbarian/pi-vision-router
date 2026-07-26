@@ -1,0 +1,26 @@
+{
+  "name": "pi-vision-router",
+  "version": "0.1.0",
+  "description": "Automatic vision model routing for pi — delegates image analysis to vision-capable models when the primary LLM lacks image support.",
+  "license": "MIT",
+  "author": "Uli <uli@0xkobold.dev>",
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "vision",
+    "image",
+    "model-router",
+    "multimodal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeardedBarbarian/pi-vision-router"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "dependencies": {
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
