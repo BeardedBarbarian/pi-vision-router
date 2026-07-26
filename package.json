@@ -1,6 +1,6 @@
 {
   "name": "pi-vision-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Automatic vision model routing for pi — delegates image analysis to vision-capable models when the primary LLM lacks image support.",
   "license": "MIT",
   "author": "Uli <uli@0xkobold.dev>",
